@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS dht_log(
+    id BIGINT UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    date varchar(19) NOT NULL,
+    temperature DECIMAL(5, 2) NOT NULL,
+    humidity DECIMAL(5, 2) NOT NULL
+);
